@@ -5,31 +5,15 @@ import { BrowserRouter as Router, Routes, Route, Link
 
 import Home from "./components/Home.js"
 import About from "./components/About.js"
-import Contact from "./components/Contact.js"
-import Gallery from "./components/Gallery.js"
+import Header from "./layouts/Header"
 
 function App() {
   return (
     <Router>
-      <nav style={{ margin: 12 }}>
-      <Link to="/" style={{ padding: 6 }}>
-        Home
-        </Link>
-        <Link to="/about" style={{ padding: 6 }}>
-          About
-        </Link>
-        <Link to="/contact" style={{ padding: 6 }}>
-          Contact
-        </Link>
-        <Link to="/gallery" style={{ padding: 6 }}>
-          Gallery
-        </Link>
-        </nav>
+      <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/gallery" element={<Gallery />} />
         </Routes>
     </Router>
   );
