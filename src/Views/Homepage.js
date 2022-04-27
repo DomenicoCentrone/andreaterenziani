@@ -10,21 +10,16 @@ function Homepage() {
                         <div class="single-slider slider-bg-1 text-center">
                             <div class="slider-inner">
                                 <h1>AL-KO</h1>
-                                <h5>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa cum sociic</h5>
-                                <a class="btn get-started-btn" href="#">Get Started</a>
                             </div>
                         </div>
                         <div class="single-slider slider-bg-2 text-center">
                             <div class="slider-inner">
-                                <h1>Free MULTIPURPSE TEMPLATE</h1>
-								<h5>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis n</h5><a class="btn get-started-btn" href="#">Get Started</a>
+                                <h1>Echo</h1>
                             </div>
                         </div>
                         <div class="single-slider slider-bg-3 text-center">
                             <div class="slider-inner">
-                                <h1>WE PROMOTE YOUR BUSINESS</h1>
-								<h5>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis n</h5>
-                                <a class="btn get-started-btn" href="#">Get Started</a>
+                                <h1>ECO ROBOT</h1>
                             </div>
                         </div>
                     </div>
