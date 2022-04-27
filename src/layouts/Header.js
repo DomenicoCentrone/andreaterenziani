@@ -9,8 +9,7 @@ function Header() {
                 <div className="row">
                     <div className="col-lg-3 col-6">
                         <div className="site-logo">
-                            <h2>GR Ferramenta</h2>
-                            <a data-toggle="tooltip" title="Be-one" href="index.html"></a>
+                            <img src="img\gr\GR-Logo.png" className='img-fluid'></img>
                         </div>
                     </div>
                     <div className="col-6 d-lg-none static text-right">

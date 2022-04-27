@@ -21,6 +21,16 @@ function Homepage() {
                             <div class="slider-inner">
                                 <h1>ECO ROBOT</h1>
                             </div>
+                        </div>                        
+                        <div class="single-slider slider-bg-4 text-center">
+                            <div class="slider-inner">
+                                <h1>BETA</h1>
+                            </div>
+                        </div>                        
+                        <div class="single-slider slider-bg-5 text-center">
+                            <div class="slider-inner">
+                                <h1>Karcher</h1>
+                            </div>
                         </div>
                     </div>
                 </div>

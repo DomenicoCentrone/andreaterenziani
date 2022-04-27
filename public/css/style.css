@@ -256,7 +256,7 @@
       text-decoration: underline;
    }
    .theme-bg {
-      background: #4272d7;
+      background: #c5292c;
    }
    .gray-bg {
       background: #f0f0f0;
@@ -346,7 +346,7 @@
     padding: 0px 10px;
 }
 .header-area {
-    border-top: 5px solid #4272d7;
+    border-top: 5px solid #c5292c;
     padding: 30px 0;
 }
 .main-menu li.search-trigger a {
@@ -365,7 +365,7 @@
     padding: 20px 0;
 }
 .main-menu li.active a {
-    color: #4272d7;
+    color: #c5292c;
 }
 
 
@@ -527,9 +527,11 @@
 .slider-bg-1 {background: url(../img/gr/al-ko-trattorino.jpg);}
 .slider-bg-2 {background: url(../img/gr/Echonew.jpg);}
 .slider-bg-3 {background: url(../img/gr/wiper-ecorobot.jpg);}
+.slider-bg-4 {background: url(../img/gr/beta.jpg);}
+.slider-bg-5 {background: url(../img/gr/karcher-idropulitrice.jpg);}
 
 .single-slider {
-    height: 600px;
+    height: 400px;
     background-size: cover;
     background-position: center;
     background-color: #cccccc;
@@ -568,8 +570,7 @@
 /* End Slider Area */
 /* Start Hire Us Area
 ==================================================*/
-.hire-us-content h6 {
-    font-size: 18px;
+.hire-us-content h2{
     margin: 0;
     font-weight: 700;
     color: #fff;
@@ -588,8 +589,8 @@
 .hire-us-area {
     padding: 30px 0;
 }
-.hire-us-content h6 span {
-    font-size: 30px;
+.hire-us-content h2 span {
+    font-size: 35px;
 }
 /* End HIre Us Area */
 /* Start Iconbox Area
@@ -660,7 +661,9 @@
 /* End Iconbox Area */
 /* Start Bemax Area
 ==================================================*/
-.section-title h4 {
+.section-title h2 {
+    color: black;
+    margin-top: 50px;
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 900;
@@ -669,9 +672,9 @@
     padding-bottom: 10px;
 }
 
-.section-title h4:after {
+.section-title h2:after {
     position: absolute;
-    bottom: 0;
+    bottom: 50%;
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
@@ -684,20 +687,20 @@
 .item-icon i {
     width: 50px;
     height: 50px;
-    background: #4272d7;
+    background: #c5292c;
     color: #fff;
     font-size: 25px;
     text-align: center;
     line-height: 50px;
     display: inline-block;
-    border: 1px solid #4272d7;
+    border: 1px solid #c5292c;
     -webkit-transition: .3s;
     transition: .3s;
 }
 
 .item-icon i:hover {
     background: transparent;
-    color: #4272d7;
+    color: #c5292c;
 }
 .item-content {
     padding-left: 20px;
@@ -872,6 +875,10 @@
     width: 200px;
     display: inline-block;
     height: auto;
+}
+
+.hire-us-img{
+    margin-top: 20px;
 }
 
 .single-blog-img {
