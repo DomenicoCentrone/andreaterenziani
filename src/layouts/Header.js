@@ -22,6 +22,7 @@ function Header() {
                                 <li><a href="#feature">Prodotti</a></li>
                                 <li><a href="#portfolio">Servizi</a></li>
                                 <li><a href="#page">Contatti</a></li>
+                                <li><a href="/dovesiamo">Dove Siamo</a></li>
                             </ul>
                         </nav>
                     </div>

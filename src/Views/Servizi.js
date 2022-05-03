@@ -18,7 +18,7 @@ function Servizi() {
                            <a><i class="fa fa-signal"></i></a>
                         </div>
                         <div class="item-content">
-                            <h6><a>Duplicazione radiocomanti</a></h6>
+                            <h6><a>Duplicazione radiocomandi</a></h6>
                         </div>
                     </div>
                 </div>
