@@ -1,7 +1,9 @@
-function Home() {
+import Home from "../Views/Home";
+
+function Home1() {
     return (
-        <div>Home</div>
+        <Home />
     );
 }
 
-export default Home;
+export default Home1;
