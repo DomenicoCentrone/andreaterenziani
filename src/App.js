@@ -3,10 +3,10 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Routes, Route, Link
 } from "react-router-dom";
 
-import Home from "./components/Home.js"
-import About from "./components/About.js"
-import Dove from "./components/Dove.js"
+import Home from "./route/Home.js"
+import Sample from "./route/Sample.js"
 import Header from "./layouts/Header"
+import Footer from "./layouts/Footer"
 
 function App() {
   return (
@@ -14,9 +14,9 @@ function App() {
       <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/dovesiamo" element={<Dove />} />
+          <Route path="/sample" element={<Sample />} />
         </Routes>
+        <Footer />
     </Router>
   );
 }
